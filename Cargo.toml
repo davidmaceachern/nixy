@@ -3,6 +3,17 @@ name = "nixy"
 version = "0.1.0"
 authors = ["David MacEachern <david.maceachern.tech@gmail.com>"]
 edition = "2018"
+homepage = "https://github.com/davidmaceachern/nixy"
+repository = "https://github.com/davidmaceachern/nixy"
+description = "🚗💨 A little boost where it matters."
+categories = ["command-line-utilities"]
+keywords = ["expressions", "nix", "yaml", "nix-env"]
+readme = "README.md"
+license-file = "LICENSE"
+
+exclude = [
+    "tests/data/"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
