@@ -25,7 +25,7 @@ This project is *alpha*, that means it probably doesn't do what it says on the t
 
 ## Inspiration
 
-The idea came from [Burke's](https://www.youtube.com/watch?v=KaIRpx11qrc) tool use at Shopify. I couldn't find anything similar so decided to start this project. There is talk about [runix](https://discourse.nixos.org/t/remote-help-shopify-rebuild-our-world-in-nix/7571) being made public and there's another project scaffolding type [tool](https://github.com/hercules-ci/project.nix). In the [video](https://youtu.be/KaIRpx11qrc?t=2165) Burke explains how this provided an 80% speed up for developers getting started.
+The idea came from [Burke's](https://www.youtube.com/watch?v=KaIRpx11qrc) tool used at Shopify. I couldn't find anything similar so decided to start this project. There is talk about [runix](https://discourse.nixos.org/t/remote-help-shopify-rebuild-our-world-in-nix/7571) being made public and there's another project scaffolding type [tool](https://github.com/hercules-ci/project.nix). In the [video](https://youtu.be/KaIRpx11qrc?t=2165) Burke explains how this provided an 80% speed up for developers getting started.
 
 At the very least this is an exercise to learn more about Rust and Nix!
 
@@ -37,12 +37,11 @@ At the very least this is an exercise to learn more about Rust and Nix!
 
 ## Roadmap
 
-- [ ] Add a workflow that initializes environment for using the tool
-- [ ] Generate a template example
-- [ ] Convert a yaml example to nixexpr
-- [ ] Update the environment based on the template using the system call
-
-
+- [ ] As David I want to define what I need for my project in a yaml file so that I can save time in the future when starting similar projects.
+  - [ ] Add a workflow that initializes environment for using the tool
+  - [ ] Generate a template example
+  - [ ] Convert a yaml example to nixexpr
+  - [ ] Update the environment based on the template using the system call
 
 ## Install
 
