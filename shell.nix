@@ -18,5 +18,5 @@ pkgs.mkShell {
   '';
 
   # Environment variables
-  TOP_SECRET_KEY="ieu5nvtu2a;mtq9ut"; 
+  TOP_SECRET_KEY="ieu5nvtu2a;mtq9ut"; # not actually a key ;) 
 }
